@@ -1,4 +1,5 @@
 import { Feature } from "@/types/feature";
+import Link from "next/link";
 
 interface SingleFeatureProps {
   feature: Feature;
@@ -12,7 +13,9 @@ const SingleFeature = ({ feature }: SingleFeatureProps) => {
       <p className="mb-4 text-gray-600">{feature.paragraph}</p>
       {feature.cta && (
         <button className="px-6 py-2 bg-primary text-white rounded hover:bg-primary/90 transition">
-          {feature.cta}
+          <Link href="/contact">
+            {feature.cta}
+          </Link>
         </button>
       )}
     </div>

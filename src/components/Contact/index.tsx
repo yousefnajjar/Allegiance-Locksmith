@@ -134,7 +134,8 @@ const Contact = () => {
                     <label className="flex items-center space-x-3 text-body-color dark:text-body-color-dark">
                       <input type="checkbox" className="h-5 w-5 rounded border border-stroke bg-white dark:bg-gray-dark" />
                       <span>
-                        I agree to receive communications by text message about my inquiry. You may opt-out by replying STOP or ask for more information by replying HELP. Message frequency varies. Message and data rates may apply. You may review our <a href="#" className="text-primary underline">Privacy Policy</a>.
+                        I agree to receive communications by text message about my inquiry. You may opt-out by replying STOP or ask for more information by replying HELP. Message frequency varies. Message and data rates may apply. You may review our   
+                        <a href="/privacy-policy" className="text-primary px-3 underline">Privacy Policy</a>.
                       </span>
                     </label>
                   </div>
@@ -143,7 +144,7 @@ const Contact = () => {
                   <div className="w-full px-4">
                     <button
                       type="submit"
-                      className="rounded-xs bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+                      className="px-6 py-2 bg-primary text-white rounded hover:bg-primary/90 transition"
                     >
                       Submit Ticket
                     </button>
