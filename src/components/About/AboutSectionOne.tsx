@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             {/* Left Content */}
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="We Are Your Trusted Security Experts"
+                title="We Are Your  Trusted Security Experts"
                 paragraph="Allegiance Locksmith is committed to providing unparalleled security solutions for your vehicle, home, or business. Our team excels in handling lockouts, precision key cutting, and advanced computer programming to ensure a seamless experience for our clients."
                 mb="44px"
               />
