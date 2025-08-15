@@ -1,20 +1,20 @@
 import { Feature } from "@/types/feature";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+interface SingleFeatureProps {
+  feature: Feature;
+}
+
+const SingleFeature = ({ feature }: SingleFeatureProps) => {
   return (
-    <div className="w-full">
-      <div className="wow fadeInUp" data-wow-delay=".15s">
-        <div className="bg-primary/10 text-primary mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md">
-          {icon}
-        </div>
-        <h3 className="mb-5 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-          {title}
-        </h3>
-        <p className="text-body-color pr-[10px] text-base leading-relaxed font-medium">
-          {paragraph}
-        </p>
-      </div>
+    <div className="text-center p-6 border rounded-lg hover:shadow-lg transition duration-300">
+      <div className="mb-4 text-primary flex justify-center">{feature.icon}</div>
+      <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+      <p className="mb-4 text-gray-600">{feature.paragraph}</p>
+      {feature.cta && (
+        <button className="px-6 py-2 bg-primary text-white rounded hover:bg-primary/90 transition">
+          {feature.cta}
+        </button>
+      )}
     </div>
   );
 };

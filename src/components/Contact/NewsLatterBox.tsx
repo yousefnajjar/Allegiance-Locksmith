@@ -60,13 +60,10 @@ const NewsLatterBox = () => {
                 y2="15.3509"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
+                <stop stopColor="var(--gradient-stop-color)" stopOpacity="0.62" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -96,13 +93,10 @@ const NewsLatterBox = () => {
                 y2="10.2511"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
+                <stop stopColor="var(--gradient-stop-color)" stopOpacity="0.62" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -132,13 +126,10 @@ const NewsLatterBox = () => {
                 y2="26.7564"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                  stopOpacity="0.62"
-                />
+                <stop stopColor="var(--gradient-stop-color)" stopOpacity="0.62" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -185,13 +176,10 @@ const NewsLatterBox = () => {
                 y2="237.617"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
+                <stop offset="0.328125" stopColor="var(--gradient-stop-color)" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -203,13 +191,10 @@ const NewsLatterBox = () => {
                 y2="212.617"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
+                <stop offset="0.328125" stopColor="var(--gradient-stop-color)" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -221,13 +206,10 @@ const NewsLatterBox = () => {
                 y2="221.617"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
+                <stop offset="0.328125" stopColor="var(--gradient-stop-color)" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -239,13 +221,10 @@ const NewsLatterBox = () => {
                 y2="188.617"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
-                />
+                <stop offset="0.328125" stopColor="var(--gradient-stop-color)" />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor="var(--gradient-stop-color)"
                   stopOpacity="0"
                 />
               </linearGradient>

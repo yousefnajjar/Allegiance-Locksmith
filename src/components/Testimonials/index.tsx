@@ -5,40 +5,40 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "John M.",
+    designation: "Homeowner in Dallas, TX",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Locked myself out at 11 PM, and Allegiance Locksmith arrived within 20 minutes. Professional, fast, and friendly — highly recommend!",
+    image: "/images/testimonials/customer-01.jpg",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Sarah L.",
+    designation: "Small Business Owner",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "They rekeyed all our office locks and installed high-security systems. Top-notch service and fair pricing!",
+    image: "/images/testimonials/customer-02.jpg",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "David R.",
+    designation: "Property Manager",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "I've worked with Allegiance Locksmith for years — reliable, skilled, and trustworthy every single time.",
+    image: "/images/testimonials/customer-03.jpg",
     star: 5,
   },
 ];
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+ <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Customers Say"
+          paragraph="Real feedback from our satisfied customers who trust Allegiance Locksmith for their home, business, and emergency locksmith needs."
           center
         />
 
@@ -48,6 +48,7 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
+
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"
@@ -85,8 +86,8 @@ const Testimonials = () => {
               y2="459.865"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#0056ad" />
+              <stop offset="1" stopColor="#0056ad" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_83:2"
@@ -96,8 +97,8 @@ const Testimonials = () => {
               y2="675.565"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+              <stop stopColor="#0056ad" />
+              <stop offset="1" stopColor="#0056ad" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -137,8 +138,8 @@ const Testimonials = () => {
               y2="8.15715"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#0056ad" stopOpacity="0" />
+              <stop offset="1" stopColor="#0056ad" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_72:302"
@@ -148,8 +149,8 @@ const Testimonials = () => {
               y2="-2.84285"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#0056ad" stopOpacity="0" />
+              <stop offset="1" stopColor="#0056ad" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_72:302"
@@ -159,8 +160,8 @@ const Testimonials = () => {
               y2="19.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#0056ad" stopOpacity="0" />
+              <stop offset="1" stopColor="#0056ad" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_72:302"
@@ -170,8 +171,8 @@ const Testimonials = () => {
               y2="31.1572"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#4A6CF7" stopOpacity="0" />
-              <stop offset="1" stopColor="#4A6CF7" />
+              <stop stopColor="#0056ad" stopOpacity="0" />
+              <stop offset="1" stopColor="#0056ad" />
             </linearGradient>
           </defs>
         </svg>
