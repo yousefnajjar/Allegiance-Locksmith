@@ -79,6 +79,7 @@ const Hero = () => {
       fontSize="8vw"
       fontWeight="bold"
       fontFamily="Arial, sans-serif"
+      
     >
       Allegiance Locksmith
     </text>
