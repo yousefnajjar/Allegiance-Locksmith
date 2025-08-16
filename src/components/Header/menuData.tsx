@@ -19,12 +19,30 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-   {
+  {
     id: 49,
     title: "Privacy Policy",
     path: "/privacy-policy",
     newTab: false,
   },
+  {
+    id: 50,
+    title: "Direct Email",
+    path: "mailto:allegiancelocksmith.llc@gmail.com",
+    newTab: false,
+  },
+  {
+    id: 51,
+    title: "(713) 271-4444",
+    path: "tel:+17132714444",
+    newTab: false,
+  },
+  // {
+  //   id: 52,
+  //   title: "📍 123 Main Street, Houston, TX", // basic black location icon
+  //   path: "https://goo.gl/maps/example",
+  //   newTab: true,
+  // },
   // {
   //   id: 33,
   //   title: "Blog",
@@ -48,7 +66,7 @@ const menuData: Menu[] = [
   //       path: "/about",
   //       newTab: false,
   //     },
- 
+
   //     {
   //       id: 43,
   //       title: "Blog Grid Page",
