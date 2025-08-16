@@ -1,4 +1,3 @@
-// File: /app/api/contactus/route.ts
 import pool from "@/app/lib/db";
 import nodemailer from "nodemailer";
 import { NextRequest, NextResponse } from "next/server";
