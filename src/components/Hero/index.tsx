@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 const Hero = () => {
@@ -27,9 +28,9 @@ const Hero = () => {
                   </Link>
                 </div>
               </div>
-              <div className="mt-10 flex justify-center text-center font-[Arial,sans-serif] text-[6vw] font-bold text-primary dark:text-white dark:opacity-50 opacity-75 mt-24">
-  <h1>Allegiance Locksmith</h1>
-</div>
+              <div className="text-primary mt-10 flex justify-center text-center font-[Arial,sans-serif] text-[6vw] font-bold opacity-10 dark:text-white dark:opacity-10">
+                <h1>Allegiance Locksmith</h1>
+              </div>
             </div>
           </div>
         </div>
